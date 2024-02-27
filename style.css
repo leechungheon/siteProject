@@ -1,0 +1,5 @@
+*{
+    margin : 0; /* 마진값 초기화*/
+    padding : 0; /*패딩값 초기화*/
+    box-sizing: border-box;/*박스 영역은 테두리까지 지정*/
+}
