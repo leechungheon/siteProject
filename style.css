@@ -6,10 +6,6 @@
     padding : 0; /*패딩값 초기화*/
     box-sizing: border-box;/*박스 영역은 테두리까지 지정*/
 }
-img{
-    width:200px;
-    height:150px;
-}
 a{
     text-decoration: none;
 }
@@ -148,6 +144,10 @@ nav{
     display : inline;
     cursor: pointer;
 }
+#gallery ul li img{
+    width:200px;
+    height:150px;
+}
 #tab1:checked~#notice,
 #tab2:checked~#gallery{
     display:block;
@@ -238,7 +238,7 @@ footer{
     margin-top:25px ;
     margin-left:25px ;
 }
-p{
+#COMPANY p{
     font-size:14px;
     color:#aaa;
 }
