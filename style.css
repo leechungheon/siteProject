@@ -146,6 +146,7 @@ nav{
 }
 #gallery ul li{
     display : inline;
+    cursor: pointer;
 }
 #tab1:checked~#notice,
 #tab2:checked~#gallery{

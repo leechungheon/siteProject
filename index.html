@@ -19,16 +19,15 @@
                 <ul id="topMenu">
                     <li><a href="#">COMPUTER<br>LANGUAGE<span>▼</span></a>
                         <ul>
-                            <li><a href="#">C/C++</a></li>
-                            <li><a href="#">JAVA</a></li>
-                            <li><a href="#">HTML</a></li>
-                            <li><a href="#">CSS</a></li>
-                            <li><a href="#">JAVASCRIPT</a></li>
+                            <li><a href="https://buttercup-homburg-001.notion.site/C-C-d9e99f376bc441e99a1833b633684bb3?pvs=4">C/C++</a></li>
+                            <li><a href="https://buttercup-homburg-001.notion.site/JAVA-0868ac298fbe41a6bead2966ba21f5fa?pvs=4">JAVA</a></li>
+                            <li><a href="https://buttercup-homburg-001.notion.site/HTML-887e28c97ec64b4c9080edac0458b829?pvs=4">HTML</a></li>
+                            <li><a href="https://buttercup-homburg-001.notion.site/JS-bf7a666dda1e475ea06ff8af567fd6f4?pvs=4">JAVASCRIPT</a></li>
                         </ul>
                     </li>
                     <li><a href="#">COMPUTER<br>SCIENCE<span>▼</span></a>
                         <ul>
-                            <li><a href="#">DS</a></li>
+                            <li><a href="https://buttercup-homburg-001.notion.site/74ff95d56b7c476682cd53efc561d9aa?pvs=4">DS</a></li>
                             <li><a href="#">OS</a></li>
                             <li><a href="#">NETWORK</a></li>
                             <li><a href="#">DATABASE</a></li>
@@ -50,8 +49,8 @@
                 <div id="notice" class="tabContent">
                     <h2>공지사항 내용입니다.</h2>
                     <ul>
-                        <li>사무실을 이전했습니다.</li>
-                        <li>[참가모집] 카약 체험에 초대합니다.</li>
+                        <li><a href="notice1.html">양우현 피파 짱못함.</a></li>
+                        <li><a href="notice2.html">충헌이의 일상.</a></li>
                         <li>[참가모집] 여름 방학 기간, 오름 체험단을 모집합니다.</li>
                         <li>겨울 추천 여행지</li>
                         <li>가을 추천 여행지</li>
@@ -61,21 +60,21 @@
                 <div id="gallery" class="tabContent">
                     <h2>갤러리 내용입니다.</h2>
                     <ul>
-                        <li><img src="images\win.jpg"></li>
-                        <li><img src="images\win2.jpg"></li>
+                        <li><img src="images\win.jpg" onclick="openImage(this.src)"></li>
+                        <li><img src="images\win2.jpg" onclick="openImage(this.src)"></li>
                     </ul>
                 </div>
             </div>
             <div id="links">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="https://www.youtube.com/@WonChangYeon777">
                             <span id="quick-icon1"></span>
                             <p>youtube link</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EC%9B%90%EC%B0%BD%EC%97%B0">
                             <span id="quick-icon2"></span>
                             <p>naver link</p>
                         </a>
@@ -106,9 +105,14 @@
                 </div>
             </div>
             <div id="COMPANY">
-                <p>충청북도 청주시 서원구 모충로9번길 40, 행복한우리집빌라 205호 (대표전화) 010-2952-3825</p>
+                <p>충청북도 청주시 서원구 모충로9번길 40, 행복한우리집빌라 205호 (대표전화) 010-2952-3825 (후원계좌) 352-1070-7121-73 농협 이충헌</p>
             </div>
         </footer>
     </div>
+    <script>
+        function openImage(src) {
+            window.open(src);
+        }
+    </script>
 </body>
 </html>
