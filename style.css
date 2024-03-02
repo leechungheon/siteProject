@@ -242,3 +242,11 @@ footer{
     font-size:14px;
     color:#aaa;
 }
+p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
